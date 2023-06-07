@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Stoper</title>
+		<link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap"
+			rel="stylesheet" />
+
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<div class="action">
+			<i class="lni lni-question-circle question"></i>
+			<i class="lni lni-brush-alt brush"></i>
+		</div>
+		<div class="container">
+			<div class="display">
+				<p class="p">
+					<span class="min">0</span><span class="minutes">0</span>:<span
+						class="sec"
+						>0</span
+					><span class="seconds">0</span>:<span class="mils">0</span
+					><span class="mil">0</span>
+				</p>
+			</div>
+			<div class="prehistory">
+				<h2>history</h2>
+				<div class="history"></div>
+				<button class="btn-history">
+					<i class="lni lni-chevron-down"></i>
+				</button>
+			</div>
+
+			<div class="buttons">
+				<button class="play"><i class="lni lni-play"></i></button>
+				<button class="pause"><i class="lni lni-pause"></i></button>
+				<button class="stop"><i class="lni lni-stop"></i></button>
+				<button class="clear"><i class="lni lni-cross-circle"></i></button>
+			</div>
+		</div>
+
+		<div class="pop-up-info">
+			<p><i class="lni lni-play"></i> - play button</p>
+			<p><i class="lni lni-pause"></i> - pause button</p>
+			<p><i class="lni lni-stop"></i> - stop button</p>
+			<p><i class="lni lni-cross-circle"></i> - clean history</p>
+		</div>
+
+		<div class="colors">
+			<div class="circle blue"></div>
+			<div class="circle orange"></div>
+			<div class="circle lime"></div>
+			<div class="circle yellow"></div>
+		</div>
+
+		<script src="app.js"></script>
+	</body>
+</html>
